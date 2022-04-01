@@ -1,0 +1,1153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7F19BC02-62F3-4889-98E5-DF594A7B8D4F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ConsultaVirtual</RootNamespace>
+    <AssemblyName>ConsultaVirtual</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ConsultaVirtual.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ConsultaVirtual.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.ReportViewer.WebForms\9.0.0.0__b03f5f7f11d50a3a\Microsoft.ReportViewer.WebForms.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfViewer, Version=1.0.2576.1086, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EntregaVirtual\EntregaVirtual\bin\PdfViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design, Version=2015.3.1111.45, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Telerik\UI for ASP.NET AJAX Q2 2015\Bin40\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Reporting, Version=9.1.15.624, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Telerik\Reporting Q2 2015\bin\Telerik.Reporting.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WebForms, Version=9.1.15.624, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <HintPath>C:\Program Files (x86)\Telerik\Reporting Q2 2015\bin\Telerik.ReportViewer.WebForms.dll</HintPath>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\Cards.css" />
+    <Content Include="css\SiteMaster.css" />
+    <Content Include="Imagenes\informacion.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Acceso.aspx" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Core.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Flow.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.dll" />
+    <Content Include="bin\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll" />
+    <Content Include="bin\Telerik.Windows.Maths.dll" />
+    <Content Include="bin\Telerik.Windows.Zip.dll" />
+    <Content Include="BuscarReportes.aspx" />
+    <Content Include="AnalisisInformacion.aspx" />
+    <Content Include="BusquedaBenchClima.aspx" />
+    <Content Include="ClimaOrganizacional.aspx" />
+    <Content Include="CoDrive.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="Esperalo.aspx" />
+    <Content Include="EstadisticosCO.aspx" />
+    <Content Include="GenerarInstalador.aspx" />
+    <Content Include="GraficasJI.aspx" />
+    <Content Include="HabilitarEncuesta.aspx" />
+    <Content Include="Head1.ascx" />
+    <Content Include="js\jquery-3.2.1.min.js" />
+    <Content Include="js\js.cookie.js" />
+    <Content Include="js\videopopup.js" />
+    <Content Include="MMenuPrincipal_Personal.aspx" />
+    <Content Include="MMenuPrincipal.aspx" />
+    <Content Include="Participacion.aspx" />
+    <Content Include="ReporteEjecutivo.aspx" />
+    <Content Include="ReporteLiderazgo.aspx" />
+    <Content Include="MenuPrincipal.aspx" />
+    <Content Include="GraficaAnalisis.aspx" />
+    <Content Include="MenuPrincipalAnterior.aspx" />
+    <Content Include="Foot.ascx" />
+    <Content Include="Head.ascx" />
+    <Content Include="obj\Debug\ConsultaVirtual.dll" />
+    <Content Include="obj\Debug\ConsultaVirtual.pdb" />
+    <Content Include="obj\Debug\ConsultaVirtual.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\ConsultaVirtual.xml" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+    <Content Include="Service References\wsMWS\ConsultaVirtual.wsMWS.UsuarioMWS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\wsMWS\Service1.disco" />
+    <Content Include="Service References\wsMWS\configuration91.svcinfo" />
+    <Content Include="Service References\wsMWS\configuration.svcinfo" />
+    <Content Include="Service References\wsMWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <Content Include="Service References\wsMWS_QA\ConsultaVirtual.wsMWS_QA.UsuarioMWS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\wsMWS_QA\Service1.disco" />
+    <Content Include="Service References\wsMWS_QA\configuration91.svcinfo" />
+    <Content Include="Service References\wsMWS_QA\configuration.svcinfo" />
+    <Content Include="Service References\wsMWS_QA\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <Content Include="Silk\Ajax.Silk.css" />
+    <Content Include="Silk\Ajax\Silk.gif" />
+    <Content Include="Silk\AsyncUpload.Silk.css" />
+    <Content Include="Silk\AsyncUpload\Silk.gif" />
+    <Content Include="Silk\AutoCompleteBox.Silk.css" />
+    <Content Include="Silk\AutoCompleteBox\Silk.gif" />
+    <Content Include="Silk\Button.Silk.css" />
+    <Content Include="Silk\Button\Silk.gif" />
+    <Content Include="Silk\Calendar.Silk.css" />
+    <Content Include="Silk\Calendar\Silk.gif" />
+    <Content Include="Silk\Calendar\sprite.gif" />
+    <Content Include="Silk\CloudUpload.Silk.css" />
+    <Content Include="Silk\CloudUpload\rcuActionSprite.png" />
+    <Content Include="Silk\CloudUpload\rcuProgress.gif" />
+    <Content Include="Silk\CloudUpload\Silk.gif" />
+    <Content Include="Silk\ColorPicker.Silk.css" />
+    <Content Include="Silk\ColorPicker\rcpSprite.png" />
+    <Content Include="Silk\ColorPicker\Silk.gif" />
+    <Content Include="Silk\ComboBox.Silk.css" />
+    <Content Include="Silk\ComboBox\Silk.gif" />
+    <Content Include="Silk\Common\loading.gif" />
+    <Content Include="Silk\Common\loading_small.gif" />
+    <Content Include="Silk\Common\radActionsSprite.png" />
+    <Content Include="Silk\Common\radFormToggleSprite.png" />
+    <Content Include="Silk\Common\radGradientButtonSprite.png" />
+    <Content Include="Silk\Common\radGradientListSprite.png" />
+    <Content Include="Silk\Common\radPrimaryGradientButtonSprite.png" />
+    <Content Include="Silk\DataPager.Silk.css" />
+    <Content Include="Silk\DataPager\Silk.gif" />
+    <Content Include="Silk\DatePicker\Silk.gif" />
+    <Content Include="Silk\DateTimePicker\Silk.gif" />
+    <Content Include="Silk\Diagram.Silk.css" />
+    <Content Include="Silk\Diagram\Silk.gif" />
+    <Content Include="Silk\Dock.Silk.css" />
+    <Content Include="Silk\Dock\Silk.gif" />
+    <Content Include="Silk\DropDownList.Silk.css" />
+    <Content Include="Silk\DropDownList\Silk.gif" />
+    <Content Include="Silk\DropDownTree.Silk.css" />
+    <Content Include="Silk\DropDownTree\Silk.gif" />
+    <Content Include="Silk\Editor.Silk.css" />
+    <Content Include="Silk\Editor\Silk.gif" />
+    <Content Include="Silk\FileExplorer.Silk.css" />
+    <Content Include="Silk\FileExplorer\FileExplorerToolbarSprites.png" />
+    <Content Include="Silk\FileExplorer\FileExplorerToolbarSpritesIE6.png" />
+    <Content Include="Silk\FileExplorer\Silk.gif" />
+    <Content Include="Silk\Filter.Silk.css" />
+    <Content Include="Silk\Filter\rfLast-rtl.gif" />
+    <Content Include="Silk\Filter\rfLast.gif" />
+    <Content Include="Silk\Filter\rfLine-rtl.gif" />
+    <Content Include="Silk\Filter\rfLine.gif" />
+    <Content Include="Silk\Filter\rfMiddle-rtl.gif" />
+    <Content Include="Silk\Filter\rfMiddle.gif" />
+    <Content Include="Silk\Filter\Silk.gif" />
+    <Content Include="Silk\Filter\sprite.png" />
+    <Content Include="Silk\FormDecorator.Silk.css" />
+    <Content Include="Silk\FormDecorator\CheckBoxSprites.png" />
+    <Content Include="Silk\FormDecorator\RadioButtonSprites.png" />
+    <Content Include="Silk\FormDecorator\Silk.gif" />
+    <Content Include="Silk\Grid.Silk.css" />
+    <Content Include="Silk\Grid\AddRecord.gif" />
+    <Content Include="Silk\Grid\Cancel.gif" />
+    <Content Include="Silk\Grid\Delete.gif" />
+    <Content Include="Silk\Grid\Edit.gif" />
+    <Content Include="Silk\Grid\export.gif" />
+    <Content Include="Silk\Grid\Filter.gif" />
+    <Content Include="Silk\Grid\loading_small.gif" />
+    <Content Include="Silk\Grid\MoveDown.gif" />
+    <Content Include="Silk\Grid\MoveUp.gif" />
+    <Content Include="Silk\Grid\PagingFirst.gif" />
+    <Content Include="Silk\Grid\PagingLast.gif" />
+    <Content Include="Silk\Grid\PagingNext.gif" />
+    <Content Include="Silk\Grid\PagingPrev.gif" />
+    <Content Include="Silk\Grid\Refresh.gif" />
+    <Content Include="Silk\Grid\rgDrag.gif" />
+    <Content Include="Silk\Grid\Silk.gif" />
+    <Content Include="Silk\Grid\SingleMinus.gif" />
+    <Content Include="Silk\Grid\SinglePlus.gif" />
+    <Content Include="Silk\Grid\SortAsc.gif" />
+    <Content Include="Silk\Grid\SortDesc.gif" />
+    <Content Include="Silk\Grid\sprite.png" />
+    <Content Include="Silk\Grid\Update.gif" />
+    <Content Include="Silk\HtmlChart\Silk.gif" />
+    <Content Include="Silk\ImageEditor.Silk.css" />
+    <Content Include="Silk\ImageEditor\Silk.gif" />
+    <Content Include="Silk\ImageGallery.Silk.css" />
+    <Content Include="Silk\ImageGallery\Silk.gif" />
+    <Content Include="Silk\Input.Silk.css" />
+    <Content Include="Silk\Input\ResizeEdge.gif" />
+    <Content Include="Silk\Input\Silk.gif" />
+    <Content Include="Silk\LightBox.Silk.css" />
+    <Content Include="Silk\LightBox\Silk.gif" />
+    <Content Include="Silk\LightBox\sprite.png" />
+    <Content Include="Silk\LinearGauge\Silk.gif" />
+    <Content Include="Silk\ListBox.Silk.css" />
+    <Content Include="Silk\ListBox\rlbSprite.png" />
+    <Content Include="Silk\ListBox\Silk.gif" />
+    <Content Include="Silk\ListView.Silk.css" />
+    <Content Include="Silk\ListView\drag.gif" />
+    <Content Include="Silk\ListView\Silk.gif" />
+    <Content Include="Silk\Map.Silk.css" />
+    <Content Include="Silk\Map\Silk.gif" />
+    <Content Include="Silk\MediaPlayer.Silk.css" />
+    <Content Include="Silk\MediaPlayer\Silk.gif" />
+    <Content Include="Silk\MediaPlayer\sprite.png" />
+    <Content Include="Silk\Menu.Silk.css" />
+    <Content Include="Silk\Menu\rmArrows.png" />
+    <Content Include="Silk\Menu\Silk.gif" />
+    <Content Include="Silk\Notification.Silk.css" />
+    <Content Include="Silk\Notification\Silk.gif" />
+    <Content Include="Silk\OrgChart.Silk.css" />
+    <Content Include="Silk\OrgChart\rocActionsSprite.png" />
+    <Content Include="Silk\OrgChart\Silk.gif" />
+    <Content Include="Silk\PanelBar.Silk.css" />
+    <Content Include="Silk\PanelBar\Silk.gif" />
+    <Content Include="Silk\PivotGrid.Silk.css" />
+    <Content Include="Silk\PivotGrid\Silk.gif" />
+    <Content Include="Silk\PivotGrid\sprite.png" />
+    <Content Include="Silk\ProgressArea.Silk.css" />
+    <Content Include="Silk\ProgressArea\Silk.gif" />
+    <Content Include="Silk\RadialGauge\Silk.gif" />
+    <Content Include="Silk\Rating.Silk.css" />
+    <Content Include="Silk\Rating\Silk.gif" />
+    <Content Include="Silk\Rating\Sprite.gif" />
+    <Content Include="Silk\Rating\Sprite.png" />
+    <Content Include="Silk\RibbonBar.Silk.css" />
+    <Content Include="Silk\RibbonBar\Silk.gif" />
+    <Content Include="Silk\Rotator.Silk.css" />
+    <Content Include="Silk\Rotator\RotatorButtons.png" />
+    <Content Include="Silk\Rotator\Silk.gif" />
+    <Content Include="Silk\Scheduler.Silk.css" />
+    <Content Include="Silk\SchedulerRecurrenceEditor.Silk.css" />
+    <Content Include="Silk\SchedulerReminderDialog.Silk.css" />
+    <Content Include="Silk\Scheduler\rsAppointmentBg.png" />
+    <Content Include="Silk\Scheduler\rsInlineEditHSprite.png" />
+    <Content Include="Silk\Scheduler\rsInlineEditVSprite.png" />
+    <Content Include="Silk\Scheduler\rsModalBg.png" />
+    <Content Include="Silk\Scheduler\rsModalBgIE6.png" />
+    <Content Include="Silk\Scheduler\rsModalTitleBg.png" />
+    <Content Include="Silk\Scheduler\rsSprites.png" />
+    <Content Include="Silk\Scheduler\rsVerticalHeaderBg.png" />
+    <Content Include="Silk\Scheduler\Silk.gif" />
+    <Content Include="Silk\SearchBox.Silk.css" />
+    <Content Include="Silk\SearchBox\Silk.gif" />
+    <Content Include="Silk\SiteMap.Silk.css" />
+    <Content Include="Silk\SiteMap\rsmHover.png" />
+    <Content Include="Silk\SiteMap\Silk.gif" />
+    <Content Include="Silk\Slider.Silk.css" />
+    <Content Include="Silk\Slider\ItemHorizontalBgr.png" />
+    <Content Include="Silk\Slider\ItemVerticalBgr.png" />
+    <Content Include="Silk\Slider\LargeChangeHorizontal.png" />
+    <Content Include="Silk\Slider\LargeChangeMiddleHorizontal.png" />
+    <Content Include="Silk\Slider\LargelChangeCenterVertical.png" />
+    <Content Include="Silk\Slider\LargelChangeVertical.png" />
+    <Content Include="Silk\Slider\SelectedRegionHorizontalBgr.png" />
+    <Content Include="Silk\Slider\SelectedRegionVerticalBgr.png" />
+    <Content Include="Silk\Slider\Silk.gif" />
+    <Content Include="Silk\Slider\SmallChangeCenterVertical.png" />
+    <Content Include="Silk\Slider\SmallChangeHorizontal.png" />
+    <Content Include="Silk\Slider\SmallChangeMiddleHorizontal.png" />
+    <Content Include="Silk\Slider\SmallChangeVertical.png" />
+    <Content Include="Silk\Slider\TrackBgr.png" />
+    <Content Include="Silk\Slider\TrackVerticalBgr.png" />
+    <Content Include="Silk\SocialShare.Silk.css" />
+    <Content Include="Silk\SocialShare\Silk.gif" />
+    <Content Include="Silk\Spell\Silk.gif" />
+    <Content Include="Silk\Splitter.Silk.css" />
+    <Content Include="Silk\Splitter\Silk.gif" />
+    <Content Include="Silk\TabStrip.Silk.css" />
+    <Content Include="Silk\TabStrip\Silk.gif" />
+    <Content Include="Silk\TagCloud.Silk.css" />
+    <Content Include="Silk\TagCloud\Silk.gif" />
+    <Content Include="Silk\Tile.Silk.css" />
+    <Content Include="Silk\TileList.Silk.css" />
+    <Content Include="Silk\TileList\Silk.gif" />
+    <Content Include="Silk\Tile\rtileSprite.png" />
+    <Content Include="Silk\Tile\rtileSpriteIE6.png" />
+    <Content Include="Silk\Tile\Silk.gif" />
+    <Content Include="Silk\TimePicker\Silk.gif" />
+    <Content Include="Silk\ToolBar.Silk.css" />
+    <Content Include="Silk\ToolBar\radPrimaryGradientButtonHover.png" />
+    <Content Include="Silk\ToolBar\radPrimaryGradientButtonNormal.png" />
+    <Content Include="Silk\ToolBar\Silk.gif" />
+    <Content Include="Silk\ToolTip.Silk.css" />
+    <Content Include="Silk\ToolTip\Callouts.png" />
+    <Content Include="Silk\ToolTip\Silk.gif" />
+    <Content Include="Silk\TreeList.Silk.css" />
+    <Content Include="Silk\TreeList\rtlBottom.gif" />
+    <Content Include="Silk\TreeList\rtlBottomRTL.gif" />
+    <Content Include="Silk\TreeList\rtlMiddle.gif" />
+    <Content Include="Silk\TreeList\rtlMiddleRTL.gif" />
+    <Content Include="Silk\TreeList\rtlSingle.gif" />
+    <Content Include="Silk\TreeList\rtlTop.gif" />
+    <Content Include="Silk\TreeList\rtlTopRTL.gif" />
+    <Content Include="Silk\TreeList\Silk.gif" />
+    <Content Include="Silk\TreeList\sprite.gif" />
+    <Content Include="Silk\TreeView.Silk.css" />
+    <Content Include="Silk\TreeView\Silk.gif" />
+    <Content Include="Silk\Upload.Silk.css" />
+    <Content Include="Silk\Upload\Silk.gif" />
+    <Content Include="Silk\Widgets.Silk.css" />
+    <Content Include="Silk\Window.Silk.css" />
+    <Content Include="Silk\Window\rwIcon.png" />
+    <Content Include="Silk\Window\Silk.gif" />
+    <Content Include="SynchSystem.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Service References\wsMWS_QA\Service1.wsdl" />
+    <Content Include="Service References\wsMWS\Service1.wsdl" />
+    <None Include="My Project\PublishProfiles\DMZ.pubxml" />
+    <None Include="My Project\PublishProfiles\QAN.pubxml" />
+    <None Include="packages.config" />
+    <None Include="Service References\wsMWS\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsMWS\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsMWS\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsMWS_QA\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\wsMWS_QA\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Site1.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Clases\Cargar.vb" />
+    <Compile Include="Clases\Crypto.vb" />
+    <Compile Include="Clases\DatosBd.vb" />
+    <Compile Include="Clases\Seguridad.vb" />
+    <Compile Include="Acceso.aspx.designer.vb">
+      <DependentUpon>Acceso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Acceso.aspx.vb">
+      <DependentUpon>Acceso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BuscarReportes.aspx.designer.vb">
+      <DependentUpon>BuscarReportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarReportes.aspx.vb">
+      <DependentUpon>BuscarReportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoDrive.aspx.designer.vb">
+      <DependentUpon>CoDrive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoDrive.aspx.vb">
+      <DependentUpon>CoDrive.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ComparativaTemas.aspx.designer.vb">
+      <DependentUpon>ComparativaTemas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComparativaTemas.aspx.vb">
+      <DependentUpon>ComparativaTemas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaBenchTemas.aspx.designer.vb">
+      <DependentUpon>BusquedaBenchTemas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaBenchTemas.aspx.vb">
+      <DependentUpon>BusquedaBenchTemas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaBenchEngagement.aspx.designer.vb">
+      <DependentUpon>BusquedaBenchEngagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaBenchEngagement.aspx.vb">
+      <DependentUpon>BusquedaBenchEngagement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaGeneral.aspx.designer.vb">
+      <DependentUpon>BusquedaGeneral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaGeneral.aspx.vb">
+      <DependentUpon>BusquedaGeneral.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BusquedaComparativas.aspx.designer.vb">
+      <DependentUpon>BusquedaComparativas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaComparativas.aspx.vb">
+      <DependentUpon>BusquedaComparativas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AnalisisInformacion.aspx.designer.vb">
+      <DependentUpon>AnalisisInformacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AnalisisInformacion.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>AnalisisInformacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaBenchClima.aspx.designer.vb">
+      <DependentUpon>BusquedaBenchClima.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusquedaBenchClima.aspx.vb">
+      <DependentUpon>BusquedaBenchClima.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\HtmlChartExporter.vb" />
+    <Compile Include="App_Code\HtmlChartExportSettings.vb" />
+    <Compile Include="ClimaOrganizacional.aspx.designer.vb">
+      <DependentUpon>ClimaOrganizacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClimaOrganizacional.aspx.vb">
+      <DependentUpon>ClimaOrganizacional.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Esperalo.aspx.designer.vb">
+      <DependentUpon>Esperalo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Esperalo.aspx.vb">
+      <DependentUpon>Esperalo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EstadisticosCO.aspx.designer.vb">
+      <DependentUpon>EstadisticosCO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstadisticosCO.aspx.vb">
+      <DependentUpon>EstadisticosCO.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GenerarInstalador.aspx.designer.vb">
+      <DependentUpon>GenerarInstalador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarInstalador.aspx.vb">
+      <DependentUpon>GenerarInstalador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GraficasJI.aspx.designer.vb">
+      <DependentUpon>GraficasJI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GraficasJI.aspx.vb">
+      <DependentUpon>GraficasJI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HabilitarEncuesta.aspx.designer.vb">
+      <DependentUpon>HabilitarEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HabilitarEncuesta.aspx.vb">
+      <DependentUpon>HabilitarEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Head1.ascx.designer.vb">
+      <DependentUpon>Head1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Head1.ascx.vb">
+      <DependentUpon>Head1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MMenuPrincipal_Personal.aspx.designer.vb">
+      <DependentUpon>MMenuPrincipal_Personal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MMenuPrincipal_Personal.aspx.vb">
+      <DependentUpon>MMenuPrincipal_Personal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MMenuPrincipal.aspx.designer.vb">
+      <DependentUpon>MMenuPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MMenuPrincipal.aspx.vb">
+      <DependentUpon>MMenuPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Models\Graficas.vb" />
+    <Compile Include="Participacion.aspx.designer.vb">
+      <DependentUpon>Participacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Participacion.aspx.vb">
+      <DependentUpon>Participacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReporteEjecutivo.aspx.designer.vb">
+      <DependentUpon>ReporteEjecutivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteEjecutivo.aspx.vb">
+      <DependentUpon>ReporteEjecutivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteLiderazgo.aspx.designer.vb">
+      <DependentUpon>ReporteLiderazgo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteLiderazgo.aspx.vb">
+      <DependentUpon>ReporteLiderazgo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.aspx.designer.vb">
+      <DependentUpon>MenuPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.aspx.vb">
+      <DependentUpon>MenuPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GraficaAnalisis.aspx.designer.vb">
+      <DependentUpon>GraficaAnalisis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GraficaAnalisis.aspx.vb">
+      <DependentUpon>GraficaAnalisis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PAAdministracion.aspx.designer.vb">
+      <DependentUpon>PAAdministracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAAdministracion.aspx.vb">
+      <DependentUpon>PAAdministracion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PAEvaluacion.aspx.designer.vb">
+      <DependentUpon>PAEvaluacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAEvaluacion.aspx.vb">
+      <DependentUpon>PAEvaluacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento.aspx.designer.vb">
+      <DependentUpon>Mantenimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento.aspx.vb">
+      <DependentUpon>Mantenimiento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReporteDemograficos.aspx.designer.vb">
+      <DependentUpon>ReporteDemograficos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteDemograficos.aspx.vb">
+      <DependentUpon>ReporteDemograficos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PAPreguntas.aspx.designer.vb">
+      <DependentUpon>PAPreguntas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PAPreguntas.aspx.vb">
+      <DependentUpon>PAPreguntas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GraficaImpacto.aspx.designer.vb">
+      <DependentUpon>GraficaImpacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GraficaImpacto.aspx.vb">
+      <DependentUpon>GraficaImpacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PASeguimiento.aspx.designer.vb">
+      <DependentUpon>PASeguimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PASeguimiento.aspx.vb">
+      <DependentUpon>PASeguimiento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GraficaMatriz.aspx.designer.vb">
+      <DependentUpon>GraficaMatriz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GraficaMatriz.aspx.vb">
+      <DependentUpon>GraficaMatriz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PantallaCompleta.aspx.designer.vb">
+      <DependentUpon>PantallaCompleta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaCompleta.aspx.vb">
+      <DependentUpon>PantallaCompleta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Graficas.aspx.designer.vb">
+      <DependentUpon>Graficas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Graficas.aspx.vb">
+      <DependentUpon>Graficas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GraficasComparativas.aspx.designer.vb">
+      <DependentUpon>GraficasComparativas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GraficasComparativas.aspx.vb">
+      <DependentUpon>GraficasComparativas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GraficaTemas.aspx.designer.vb">
+      <DependentUpon>GraficaTemas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GraficaTemas.aspx.vb">
+      <DependentUpon>GraficaTemas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipalAnterior.aspx.designer.vb">
+      <DependentUpon>MenuPrincipalAnterior.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipalAnterior.aspx.vb">
+      <DependentUpon>MenuPrincipalAnterior.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Foot.ascx.designer.vb">
+      <DependentUpon>Foot.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Foot.ascx.vb">
+      <DependentUpon>Foot.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Head.ascx.designer.vb">
+      <DependentUpon>Head.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Head.ascx.vb">
+      <DependentUpon>Head.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReportesTelerik\MatrizEfectividad.Designer.vb">
+      <DependentUpon>MatrizEfectividad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\MatrizEfectividad.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\PlanAccion.Designer.vb">
+      <DependentUpon>PlanAccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\PlanAccion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R13.Designer.vb">
+      <DependentUpon>R13.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R13.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R15.Designer.vb">
+      <DependentUpon>R15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R15.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R16.Designer.vb">
+      <DependentUpon>R16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R16.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R17.Designer.vb">
+      <DependentUpon>R17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R17.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R18.Designer.vb">
+      <DependentUpon>R18.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R18.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R19.Designer.vb">
+      <DependentUpon>R19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R19.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R20.Designer.vb">
+      <DependentUpon>R20.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R20.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R51.Designer.vb">
+      <DependentUpon>R51.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R51.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R52.Designer.vb">
+      <DependentUpon>R52.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R52.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\R53.Designer.vb">
+      <DependentUpon>R53.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\R53.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\REBenchmark.Designer.vb">
+      <DependentUpon>REBenchmark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\REBenchmark.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\REClimaOrganizacional.Designer.vb">
+      <DependentUpon>REClimaOrganizacional.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\REClimaOrganizacional.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\REComentarios.Designer.vb">
+      <DependentUpon>REComentarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\REComentarios.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\REDemograficos.Designer.vb">
+      <DependentUpon>REDemograficos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\REDemograficos.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\RELiderazgo.Designer.vb">
+      <DependentUpon>RELiderazgo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\RELiderazgo.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\REParticipacion.Designer.vb">
+      <DependentUpon>REParticipacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\REParticipacion.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\REQueEsClima.Designer.vb">
+      <DependentUpon>REQueEsClima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\REQueEsClima.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportesTelerik\RESubSistemas.Designer.vb">
+      <DependentUpon>RESubSistemas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesTelerik\RESubSistemas.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service References\wsMWS\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\wsMWS_QA\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SynchSystem.aspx.designer.vb">
+      <DependentUpon>SynchSystem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SynchSystem.aspx.vb">
+      <DependentUpon>SynchSystem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\PdfViewer.dll" />
+    <Content Include="bin\Telerik.Reporting.dll" />
+    <Content Include="bin\Telerik.ReportViewer.WebForms.dll" />
+    <Content Include="ComparativaTemas.aspx" />
+    <Content Include="BusquedaBenchTemas.aspx" />
+    <Content Include="BusquedaBenchEngagement.aspx" />
+    <Content Include="BusquedaGeneral.aspx" />
+    <Content Include="BusquedaComparativas.aspx" />
+    <Content Include="PAAdministracion.aspx" />
+    <Content Include="PAEvaluacion.aspx" />
+    <Content Include="Mantenimiento.aspx" />
+    <Content Include="ReporteDemograficos.aspx" />
+    <Content Include="PAPreguntas.aspx" />
+    <Content Include="GraficaImpacto.aspx" />
+    <Content Include="PASeguimiento.aspx" />
+    <Content Include="GraficaMatriz.aspx" />
+    <Content Include="PantallaCompleta.aspx" />
+    <Content Include="Graficas.aspx" />
+    <Content Include="GraficasComparativas.aspx" />
+    <Content Include="GraficaTemas.aspx" />
+    <Content Include="Session.js" />
+    <Content Include="App_LocalResources\Acceso.aspx.resx" />
+    <Content Include="App_LocalResources\Acceso.aspx.en.resx" />
+    <Content Include="App_LocalResources\Acceso.aspx.pt.resx" />
+    <Content Include="App_LocalResources\Foot.ascx.resx" />
+    <Content Include="App_LocalResources\Foot.ascx.en.resx" />
+    <Content Include="App_LocalResources\Foot.ascx.pt.resx" />
+    <Content Include="App_LocalResources\ClimaOrganizacional.aspx.resx" />
+    <Content Include="App_LocalResources\ClimaOrganizacional.aspx.en.resx" />
+    <Content Include="App_LocalResources\ClimaOrganizacional.aspx.pt.resx" />
+    <Content Include="App_LocalResources\Head.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Head.ascx.en.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\Head.ascx.pt.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\MenuPrincipal.aspx.pt.resx" />
+    <Content Include="App_LocalResources\BusquedaGeneral.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaGeneral.aspx.en.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaGeneral.aspx.pt.resx" />
+    <Content Include="App_LocalResources\BusquedaComparativas.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaComparativas.aspx.en.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaComparativas.aspx.pt.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaBenchTemas.aspx.resx" />
+    <Content Include="App_LocalResources\BusquedaBenchTemas.aspx.en.resx" />
+    <Content Include="App_LocalResources\BusquedaBenchTemas.aspx.pt.resx" />
+    <Content Include="App_LocalResources\BusquedaBenchEngagement.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaBenchEngagement.aspx.en.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaBenchEngagement.aspx.pt.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaBenchClima.aspx.resx" />
+    <Content Include="App_LocalResources\BusquedaBenchClima.aspx.en.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BusquedaBenchClima.aspx.pt.resx" />
+    <Content Include="App_LocalResources\AnalisisInformacion.aspx.resx" />
+    <Content Include="App_LocalResources\AnalisisInformacion.aspx.en.resx" />
+    <Content Include="App_LocalResources\AnalisisInformacion.aspx.pt.resx" />
+    <Content Include="App_LocalResources\BuscarReportes.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BuscarReportes.aspx.en.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\BuscarReportes.aspx.pt.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_LocalResources\ReporteEjecutivo.aspx.pt.resx" />
+    <Content Include="App_LocalResources\ReporteEjecutivo.aspx.en.resx" />
+    <Content Include="App_LocalResources\ReporteDemograficos.aspx.en.resx" />
+    <Content Include="App_LocalResources\ReporteDemograficos.aspx.pt.resx" />
+    <Content Include="App_LocalResources\ReporteDemograficos.aspx.resx" />
+    <Content Include="App_LocalResources\CoDrive.aspx.en.resx" />
+    <Content Include="App_LocalResources\CoDrive.aspx.pt.resx" />
+    <Content Include="App_LocalResources\CoDrive.aspx.resx" />
+    <Content Include="App_LocalResources\ComparativaTemas.aspx.en.resx" />
+    <Content Include="App_LocalResources\ComparativaTemas.aspx.pt.resx" />
+    <Content Include="App_LocalResources\ComparativaTemas.aspx.resx" />
+    <Content Include="App_LocalResources\Esperalo.aspx.en.resx" />
+    <Content Include="App_LocalResources\Esperalo.aspx.pt.resx" />
+    <Content Include="App_LocalResources\Esperalo.aspx.resx" />
+    <Content Include="App_LocalResources\GenerarInstalador.aspx.pt.resx" />
+    <Content Include="App_LocalResources\GenerarInstalador.aspx.en.resx" />
+    <Content Include="App_LocalResources\GenerarInstalador.aspx.resx" />
+    <Content Include="App_LocalResources\GraficaAnalisis.aspx.en.resx" />
+    <Content Include="App_LocalResources\GraficaAnalisis.aspx.pt.resx" />
+    <Content Include="App_LocalResources\GraficaAnalisis.aspx.resx" />
+    <Content Include="App_LocalResources\GraficaImpacto.aspx.pt.resx" />
+    <Content Include="App_LocalResources\GraficaImpacto.aspx.en.resx" />
+    <Content Include="App_LocalResources\GraficaImpacto.aspx.resx" />
+    <Content Include="App_LocalResources\GraficaMatriz.aspx.pt.resx" />
+    <Content Include="App_LocalResources\GraficaMatriz.aspx.en.resx" />
+    <Content Include="App_LocalResources\GraficaMatriz.aspx.resx" />
+    <Content Include="App_LocalResources\Graficas.aspx.pt.resx" />
+    <Content Include="App_LocalResources\Graficas.aspx.en.resx" />
+    <Content Include="App_LocalResources\Graficas.aspx.resx" />
+    <Content Include="App_LocalResources\GraficasComparativas.aspx.pt.resx" />
+    <Content Include="App_LocalResources\GraficasComparativas.aspx.en.resx" />
+    <Content Include="App_LocalResources\GraficasComparativas.aspx.resx" />
+    <Content Include="App_LocalResources\GraficaTemas.aspx.pt.resx" />
+    <Content Include="App_LocalResources\GraficaTemas.aspx.en.resx" />
+    <Content Include="App_LocalResources\GraficaTemas.aspx.resx" />
+    <Content Include="App_LocalResources\HabilitarEncuesta.aspx.pt.resx" />
+    <Content Include="App_LocalResources\HabilitarEncuesta.aspx.en.resx" />
+    <Content Include="App_LocalResources\HabilitarEncuesta.aspx.resx" />
+    <Content Include="App_LocalResources\Mantenimiento.aspx.pt.resx" />
+    <Content Include="App_LocalResources\Mantenimiento.aspx.en.resx" />
+    <Content Include="App_LocalResources\Mantenimiento.aspx.resx" />
+    <Content Include="App_LocalResources\MenuPrincipal.aspx.en.resx" />
+    <Content Include="App_LocalResources\MenuPrincipal.aspx.resx" />
+    <Content Include="App_LocalResources\PAAdministracion.aspx.pt.resx" />
+    <Content Include="App_LocalResources\PAAdministracion.aspx.en.resx" />
+    <Content Include="App_LocalResources\PAAdministracion.aspx.resx" />
+    <Content Include="App_LocalResources\PAEvaluacion.aspx.pt.resx" />
+    <Content Include="App_LocalResources\PAEvaluacion.aspx.en.resx" />
+    <Content Include="App_LocalResources\PAEvaluacion.aspx.resx" />
+    <Content Include="App_LocalResources\PantallaCompleta.aspx.pt.resx" />
+    <Content Include="App_LocalResources\PantallaCompleta.aspx.en.resx" />
+    <Content Include="App_LocalResources\PantallaCompleta.aspx.resx" />
+    <Content Include="App_LocalResources\PAPreguntas.aspx.pt.resx" />
+    <Content Include="App_LocalResources\PAPreguntas.aspx.en.resx" />
+    <Content Include="App_LocalResources\PAPreguntas.aspx.resx" />
+    <Content Include="App_LocalResources\Participacion.aspx.pt.resx" />
+    <Content Include="App_LocalResources\Participacion.aspx.en.resx" />
+    <Content Include="App_LocalResources\Participacion.aspx.resx" />
+    <Content Include="App_LocalResources\PASeguimiento.aspx.pt.resx" />
+    <Content Include="App_LocalResources\PASeguimiento.aspx.en.resx" />
+    <Content Include="App_LocalResources\PASeguimiento.aspx.resx" />
+    <Content Include="App_LocalResources\ReporteEjecutivo.aspx.resx" />
+    <Content Include="App_LocalResources\ReporteLiderazgo.aspx.pt.resx" />
+    <Content Include="App_LocalResources\ReporteLiderazgo.aspx.en.resx" />
+    <Content Include="App_LocalResources\ReporteLiderazgo.aspx.resx" />
+    <EmbeddedResource Include="App_LocalResources\SynchSystem.aspx.pt.resx" />
+    <EmbeddedResource Include="App_LocalResources\SynchSystem.aspx.en.resx" />
+    <EmbeddedResource Include="App_LocalResources\SynchSystem.aspx.resx" />
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\ConsultaVirtual.Resources.resources" />
+    <EmbeddedResource Include="ReportesTelerik\MatrizEfectividad.resx">
+      <DependentUpon>MatrizEfectividad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\PlanAccion.resx">
+      <DependentUpon>PlanAccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R13.resx">
+      <DependentUpon>R13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R15.resx">
+      <DependentUpon>R15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R16.resx">
+      <DependentUpon>R16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R17.resx">
+      <DependentUpon>R17.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R18.resx">
+      <DependentUpon>R18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R19.resx">
+      <DependentUpon>R19.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R20.resx">
+      <DependentUpon>R20.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R51.resx">
+      <DependentUpon>R51.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R52.resx">
+      <DependentUpon>R52.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\R53.resx">
+      <DependentUpon>R53.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\REBenchmark.resx">
+      <DependentUpon>REBenchmark.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\REClimaOrganizacional.resx">
+      <DependentUpon>REClimaOrganizacional.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\REComentarios.resx">
+      <DependentUpon>REComentarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\REDemograficos.resx">
+      <DependentUpon>REDemograficos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\RELiderazgo.resx">
+      <DependentUpon>RELiderazgo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\REParticipacion.resx">
+      <DependentUpon>REParticipacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\REQueEsClima.resx">
+      <DependentUpon>REQueEsClima.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesTelerik\RESubSistemas.resx">
+      <DependentUpon>RESubSistemas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\PRD.pubxml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\PublishProfiles\QA.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="obj\Debug\ConsultaVirtual.vbproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="Service References\wsMWS_QA\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\wsMWS\" />
+    <WCFMetadataStorage Include="Service References\wsMWS_QA\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60077</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

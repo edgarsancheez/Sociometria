@@ -1,0 +1,85 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Evaluacion" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;table align="center" style="width:100%;"&gt;
+        &lt;tr&gt;
+            &lt;td align="center"&gt;
+                &lt;table style="width: 80%; font-family: 'Palatino Linotype'; font-size: 12pt;"&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            IMAGENFEMSA&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            &lt;b&gt;TITULO1&lt;/b&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            &lt;b&gt;TITULO2&lt;/b&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            &lt;hr style="color: #800000" /&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="left"&gt;&lt;b&gt;Evaluación&lt;/b&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;PARRAFO1&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+          &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td width="100%" align="justify"&gt;PARRAFO2&lt;/td&gt;
+          &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;&lt;B&gt;Link1 &lt;/a&gt;&lt;/B&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;PARRAFO3&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td width="100%" align="justify"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;&amp;nbsp;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            &lt;hr style="color: #800000" /&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            Si tienes dudas o comentarios, envía un correo a                             
+                            &lt;a href="mailto:NOMCORREO"&gt;
+                            NOMCORREO&lt;/a&gt;&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            PARRAFO4&lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" width="100%"&gt;
+                            Gracias por tu apoyo.&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+&lt;/table&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

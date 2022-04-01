@@ -1,0 +1,143 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="ConsultaVirtual.Site1" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <title>Sociometría</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="css/SiteMaster.css" />
+        <style type="text/css">      
+            body {
+    background: #edf2f4;
+    min-height: 100vh;
+    padding-top: 5px;
+}
+                    .bg-azul {
+            background-color: #003049;
+        }
+        .bg-amarillo {
+            background-color: #ffde59;
+        }
+        </style>
+</head>
+<body>
+<!-- Vertical navbar #8d99ae / #2b2d42 / #ef233c / #d80032-->
+<div class="vertical-nav bg-sidebar" id="sidebar">
+  <div class="py-4 px-3 mb-4">
+    <div class="media d-flex align-items-center">
+      <div class="media-body text-white">
+        <h3 runat="server" id="NombrePersona" class="m-0">Sociometría</h3>
+      </div>
+    </div>
+  </div>
+    <hr class="line" />
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="LDemografico1" CssClass="text-white" runat="server" Text="Demografico 1"></asp:Label>
+                        <telerik:RadComboBox ID="RDemografico1" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label1" runat="server"  CssClass="text-white" Text="Demografico 2"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox1" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label2"  CssClass="text-white" runat="server" Text="Demografico 3"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox2" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label3"  CssClass="text-white" runat="server" Text="Demografico 4"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox3" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label4"  CssClass="text-white" runat="server" Text="Demografico 5"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox4" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label5"  CssClass="text-white" runat="server" Text="Demografico 6"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox5" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label6"  CssClass="text-white" runat="server" Text="Demografico 7"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox6" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label7"  CssClass="text-white" runat="server" Text="Demografico 8"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox7" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label8"  CssClass="text-white" runat="server" Text="Demografico 9"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox8" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+            <div class="col-md-12 mb-2">
+                        <asp:Label ID="Label9"  CssClass="text-white" runat="server" Text="Demografico 1"></asp:Label>
+                        <telerik:RadComboBox ID="RadComboBox9" runat="server" AutoPostBack="true" Skin="Metro" EnableEmbeddedSkins="true" ></telerik:RadComboBox>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="page-content p-2" id="content">
+  <!-- Toggle button -->
+ 
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="MMenuPrincipal.aspx">Dashboard</a>
+                            </li> 
+                            <li class="nav-item active">
+                                <a class="nav-link" href="MMenuPrincipal.aspx">Genero</a>
+                            </li> 
+                            <li class="nav-item active">
+                                <a class="nav-link" href="MMenuPrincipal.aspx">Personal</a>
+                            </li> 
+                            <li class="nav-item active">
+                                <a class="nav-link" href="MMenuPrincipal.aspx">Inicio</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">|</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Login.aspx">Cerrar Sesión</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <asp:ContentPlaceHolder ID="Master" runat="server">
+        </asp:ContentPlaceHolder>
+    <asp:Label runat="server" ID="Lerror"></asp:Label>
+    <asp:Label runat="server" ID="LRuta" ></asp:Label>
+</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+ <script type="text/javascript">
+            $(function() {
+  // Sidebar toggle behavior
+  $('#sidebarCollapse').on('click', function() {
+    $('#sidebar, #content').toggleClass('active');
+  });
+                });
+ </script>
+
+</html>

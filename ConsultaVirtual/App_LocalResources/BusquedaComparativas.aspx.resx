@@ -1,0 +1,1888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BFiltrarResource1.SingleClickText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BFiltrarResource1.Text" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="BFiltrarResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Chk1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Chk1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Chk1Resource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Chk1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="Grid2Resource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="Grid2Resource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="Grid2Resource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="Grid2Resource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="Grid2Resource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="Grid2Resource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="Grid2Resource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="Grid2Resource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="Grid2Resource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="Grid2Resource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="Grid2Resource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.CancelChangesText" xml:space="preserve">
+    <value>Cancel changes</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Exportar a CSV</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Exportar el contenido del Grid a un archivo Excel</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Exrportar a PDF</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Exportar a Word</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.NextFrozenColumnText" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.PrevFrozenColumnText" xml:space="preserve">
+    <value>Prev</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>Actualizar contenido</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.CommandItemSettings.SaveChangesText" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.CancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.EditText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.InsertText" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.EditColumn.UpdateText" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.EditFormSettings.PopUpSettings.CloseButtonToolTip" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>No child records to display.</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="Grid2Resource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grid2Resource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="Grid2Resource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>Reordenar Ascendente</value>
+  </data>
+  <data name="Grid2Resource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>Reordenar Descendente</value>
+  </data>
+  <data name="Grid2Resource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>Click here to sort</value>
+  </data>
+  <data name="Grid2Resource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Grid2Resource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="Grid2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderText" xml:space="preserve">
+    <value>CVE</value>
+  </data>
+  <data name="GridBoundColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GridBoundColumnResource1.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource1.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource10.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource10.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderText" xml:space="preserve">
+    <value>ENCACT</value>
+  </data>
+  <data name="GridBoundColumnResource10.HeaderTooltip" xml:space="preserve">
+    <value>Número de personas que participaron en el centro de  trabajo</value>
+  </data>
+  <data name="GridBoundColumnResource10.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource10.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource11.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource11.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderText" xml:space="preserve">
+    <value>PERACT</value>
+  </data>
+  <data name="GridBoundColumnResource11.HeaderTooltip" xml:space="preserve">
+    <value>Número total de personas que  integran el centro de  trabajo</value>
+  </data>
+  <data name="GridBoundColumnResource11.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource11.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource12.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource12.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderText" xml:space="preserve">
+    <value>CALCULO</value>
+  </data>
+  <data name="GridBoundColumnResource12.HeaderTooltip" xml:space="preserve">
+    <value>Número total de personas que  integran el centro de  trabajo</value>
+  </data>
+  <data name="GridBoundColumnResource12.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource12.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource13.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource13.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderText" xml:space="preserve">
+    <value>ENCANT</value>
+  </data>
+  <data name="GridBoundColumnResource13.HeaderTooltip" xml:space="preserve">
+    <value>Número de personas que participaron en el centro de  trabajo anterior.</value>
+  </data>
+  <data name="GridBoundColumnResource13.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource13.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource14.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource14.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderText" xml:space="preserve">
+    <value>PERANT</value>
+  </data>
+  <data name="GridBoundColumnResource14.HeaderTooltip" xml:space="preserve">
+    <value>Número total de personas que  integran el centro de  trabajo  anterior.</value>
+  </data>
+  <data name="GridBoundColumnResource14.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource14.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource15.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource15.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderText" xml:space="preserve">
+    <value>CALCULO_ANT</value>
+  </data>
+  <data name="GridBoundColumnResource15.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource15.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource2.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource2.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderText" xml:space="preserve">
+    <value>Concepto</value>
+  </data>
+  <data name="GridBoundColumnResource2.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource2.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource3.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource3.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderText" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="GridBoundColumnResource3.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource3.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.DataFormatString" xml:space="preserve">
+    <value>{0:P1}</value>
+  </data>
+  <data name="GridBoundColumnResource4.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource4.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource4.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderText" xml:space="preserve">
+    <value>Participación anterior</value>
+  </data>
+  <data name="GridBoundColumnResource4.HeaderTooltip" xml:space="preserve">
+    <value>Participación agrupada de los centros de  trabajo anteriores</value>
+  </data>
+  <data name="GridBoundColumnResource4.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource4.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.DataFormatString" xml:space="preserve">
+    <value>{0:P1}</value>
+  </data>
+  <data name="GridBoundColumnResource5.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource5.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource5.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderText" xml:space="preserve">
+    <value>Participación actual</value>
+  </data>
+  <data name="GridBoundColumnResource5.HeaderTooltip" xml:space="preserve">
+    <value>Participación agrupada de los centros de  trabajo anteriores</value>
+  </data>
+  <data name="GridBoundColumnResource5.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource5.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.DataFormatString" xml:space="preserve">
+    <value>{0:P1}</value>
+  </data>
+  <data name="GridBoundColumnResource6.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource6.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource6.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderText" xml:space="preserve">
+    <value>Diferencia participación</value>
+  </data>
+  <data name="GridBoundColumnResource6.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource6.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.DataFormatString" xml:space="preserve">
+    <value>{0:N1}</value>
+  </data>
+  <data name="GridBoundColumnResource7.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource7.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource7.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderText" xml:space="preserve">
+    <value>Promedio anterior</value>
+  </data>
+  <data name="GridBoundColumnResource7.HeaderTooltip" xml:space="preserve">
+    <value>Promedio agrupado de los centros de trabajo</value>
+  </data>
+  <data name="GridBoundColumnResource7.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource7.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.DataFormatString" xml:space="preserve">
+    <value>{0:N1}</value>
+  </data>
+  <data name="GridBoundColumnResource8.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource8.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource8.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderText" xml:space="preserve">
+    <value>Promedio actual</value>
+  </data>
+  <data name="GridBoundColumnResource8.HeaderTooltip" xml:space="preserve">
+    <value>Promedio agrupado de los centros de trabajo</value>
+  </data>
+  <data name="GridBoundColumnResource8.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource8.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.DataFormatString" xml:space="preserve">
+    <value>{0:N1}</value>
+  </data>
+  <data name="GridBoundColumnResource9.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource9.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource9.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderText" xml:space="preserve">
+    <value>Diferencia promedio</value>
+  </data>
+  <data name="GridBoundColumnResource9.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource9.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource2.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource3.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgAmarilla1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgAmarilla1Resource1.ToolTip" xml:space="preserve">
+    <value>No existe promedio anterior/ Promedio no cambio</value>
+  </data>
+  <data name="ImgAmarilla1Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgAmarilla1Resource2.ToolTip" xml:space="preserve">
+    <value>No existe promedio anterior/ Promedio no cambio</value>
+  </data>
+  <data name="ImgAmarillaPA0Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgAmarillaPA0Resource1.ToolTip" xml:space="preserve">
+    <value>No existe Participación anterior/ Participación no cambio</value>
+  </data>
+  <data name="ImgAmarillaPA0Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgAmarillaPA0Resource2.ToolTip" xml:space="preserve">
+    <value>No existe Participación anterior/ Participación no cambio</value>
+  </data>
+  <data name="ImgRoja1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgRoja1Resource1.ToolTip" xml:space="preserve">
+    <value>El promedio bajo en comparación con la evaluación anterior</value>
+  </data>
+  <data name="ImgRoja1Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgRoja1Resource2.ToolTip" xml:space="preserve">
+    <value>El promedio bajo en comparación con la evaluación anterior</value>
+  </data>
+  <data name="ImgRojaPA0Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgRojaPA0Resource1.ToolTip" xml:space="preserve">
+    <value>La participación bajo en comparación con la evaluación anterior</value>
+  </data>
+  <data name="ImgRojaPA0Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgRojaPA0Resource2.ToolTip" xml:space="preserve">
+    <value>La participación bajo en comparación con la evaluación anterior</value>
+  </data>
+  <data name="ImgVerde1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgVerde1Resource1.ToolTip" xml:space="preserve">
+    <value>El promedio subio en comparación con la evaluación anterior</value>
+  </data>
+  <data name="ImgVerde1Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgVerde1Resource2.ToolTip" xml:space="preserve">
+    <value>El promedio subio en comparación con la evaluación anterior</value>
+  </data>
+  <data name="ImgVerdePA0Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgVerdePA0Resource1.ToolTip" xml:space="preserve">
+    <value>La participación subio en comparación con la evaluación anterior</value>
+  </data>
+  <data name="ImgVerdePA0Resource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgVerdePA0Resource2.ToolTip" xml:space="preserve">
+    <value>La participación subio en comparación con la evaluación anterior</value>
+  </data>
+  <data name="Label10Resource1.Text" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Label10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label11Resource1.Text" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Label11Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label14Resource1.Text" xml:space="preserve">
+    <value>Rango de Año Anterior</value>
+  </data>
+  <data name="Label14Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label18Resource1.Text" xml:space="preserve">
+    <value>Territorio</value>
+  </data>
+  <data name="Label18Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Unidad de Negocio</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Región / Zona</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Subregión</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Tipo de Operación</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Esquema</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Agrupado por Paises</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>Rango de Año Actual</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LerrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LerrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Empleado</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Lider</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LkActualizarResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LkActualizarResource1.ToolTip" xml:space="preserve">
+    <value>Actualizar contenido</value>
+  </data>
+  <data name="LkExcelResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LkExcelResource1.ToolTip" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Comparativas</value>
+  </data>
+  <data name="RadioButtonList1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.Maximize" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.PinOff" xml:space="preserve">
+    <value>Pin off</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.PinOn" xml:space="preserve">
+    <value>Pin on</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="RadWindowManager1Resource1.Localization.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="RadWindowManager1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.EmptyMessage" xml:space="preserve">
+    <value>Sin datos que mostrar</value>
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBAgrupadoPaisesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoActual1Resource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoActual1Resource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBAñoActual1Resource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBAñoActual1Resource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBAñoActual1Resource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBAñoActual1Resource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBAñoActual1Resource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBAñoActual1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoActual2Resource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoActual2Resource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBAñoActual2Resource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBAñoActual2Resource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBAñoActual2Resource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBAñoActual2Resource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBAñoActual2Resource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBAñoActual2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoAnterior1Resource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoAnterior1Resource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBAñoAnterior1Resource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBAñoAnterior1Resource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBAñoAnterior1Resource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBAñoAnterior1Resource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBAñoAnterior1Resource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBAñoAnterior1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoAnterior2Resource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBAñoAnterior2Resource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBAñoAnterior2Resource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBAñoAnterior2Resource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBAñoAnterior2Resource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBAñoAnterior2Resource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBAñoAnterior2Resource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBAñoAnterior2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RcboTipoOperacionResource1.EmptyMessage" xml:space="preserve">
+    <value>Sin información disponible</value>
+  </data>
+  <data name="RcboTipoOperacionResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RcboTipoOperacionResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RcboTipoOperacionResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RcboTipoOperacionResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RcboTipoOperacionResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RcboTipoOperacionResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RcboTipoOperacionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBPaisResource1.EmptyMessage" xml:space="preserve">
+    <value>Sin datos que mostrar</value>
+  </data>
+  <data name="RCBPaisResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBPaisResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBPaisResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBPaisResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBPaisResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBPaisResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBPaisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBregionResource1.EmptyMessage" xml:space="preserve">
+    <value>Sin datos que mostrar</value>
+  </data>
+  <data name="RCBregionResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBregionResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBregionResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBregionResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBregionResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBregionResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBregionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBSubRegionResource1.EmptyMessage" xml:space="preserve">
+    <value>Sin datos que mostrar</value>
+  </data>
+  <data name="RCBSubRegionResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBSubRegionResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBSubRegionResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBSubRegionResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBSubRegionResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBSubRegionResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBSubRegionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBTerritorioResource1.EmptyMessage" xml:space="preserve">
+    <value>Sin datos que mostrar</value>
+  </data>
+  <data name="RCBTerritorioResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBTerritorioResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBTerritorioResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBTerritorioResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBTerritorioResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBTerritorioResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBTerritorioResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RCBUnidadResource1.EmptyMessage" xml:space="preserve">
+    <value>Sin datos que mostrar</value>
+  </data>
+  <data name="RCBUnidadResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="RCBUnidadResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="RCBUnidadResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="RCBUnidadResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="RCBUnidadResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="RCBUnidadResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RCBUnidadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UserListDialogResource1.Localization.Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.Maximize" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.PinOff" xml:space="preserve">
+    <value>Pin off</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.PinOn" xml:space="preserve">
+    <value>Pin on</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.Reload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="UserListDialogResource1.Localization.Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="UserListDialogResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>
